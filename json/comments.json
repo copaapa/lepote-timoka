@@ -1,0 +1,38 @@
+[
+    {
+      "comment": "Priroda je nešto posebno, treba doći i videti, rečima je teško opisati",
+      "namePlace": "Marija, Beograd",
+      "personImg" : "/images/person1.jpg"
+    },
+    {
+      "comment": "Nezaboravno iskustvo na danima Zorana Radmilovića, jedva čekam ovu manifestaciju sledeće godine i pitam se može li biti bolja!",
+      "namePlace": "Nevena, Novi sad",
+      "personImg" : "/images/person3.jpg"
+    },
+    {
+      "comment": "Zaječarska gitarijada je ispunila sva moja očekivanja i uz dobro pivo i fenomenalne domaćine mogu samo da preporučim svojim prijateljima dolazak u ovaj kraj",
+      "namePlace": "Mladen, Čačak",
+      "personImg" : "/images/person2.jpg"
+    },
+    {
+      "comment": "Magična i nestvarna lepota Rtnja treba da se lično doživi a gde je još sve ostalo što nudi Timočka krajina",
+      "namePlace": "Vlatko, Skoplje",
+      "personImg" : "/images/person6.jpg"
+    },
+    {
+      "comment": "Gamzigradska banja se pokazala kao odlično mesto za pripreme našeg kluba. Vidimo se i sledeće godine...",
+      "namePlace": "Milena, Subotica",
+      "personImg" : "/images/person4.jpg"
+    },
+    {
+      "comment": "Odmor za dušu i telo. Nezaboravan izlet u Felix Romulianu, pogled sa Rtnja i dobra zakuska kod naših domaćina u Boljevcu",
+      "namePlace": "Katarina, Loznica",
+      "personImg" : "/images/person5.jpg"
+    },
+    {
+      "comment": "Do sada sam Bor, znao samo po rudniku, ali, od sada će prvo što mi pada na pamet biti Borsko jezero, Brestovačka banja i Lazareva pećina",
+      "namePlace": "Milorad, Šabac",
+      "personImg" : "/images/person7.jpg"
+    }
+   
+  ]

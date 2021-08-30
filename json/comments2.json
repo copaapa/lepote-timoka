@@ -1,0 +1,38 @@
+[
+    {
+      "comment": "Nature is something special, you have to come and see it, it's hard to describe in words",
+      "namePlace": "Marija, Belgrade",
+      "personImg": "/images/person1.jpg"
+    },
+    {
+      "comment": "Unforgettable experience in the days of Zoran Radmilović, I can't wait for this event next year and I wonder if it can be better!",
+      "namePlace": "Nevena, Novi Sad",
+      "personImg": "/images/person3.jpg"
+    },
+    {
+      "comment": "Zajecar Guitar Festival fulfilled all my expectations and with good beer and phenomenal hosts I can only recommend my friends to come to this area",
+      "namePlace": "Mladen, Cacak",
+      "personImg": "/images/person2.jpg"
+    },
+    {
+      "comment": "The magical and unreal beauty of Rtnja should be experienced in person, and where is everything else that the Timok region has to offer",
+      "namePlace": "Vlatko, Skopje",
+      "personImg": "/images/person6.jpg"
+    },
+    {
+      "comment": "Gamzigradska Banja proved to be a great place for the preparations of our club. See you next year ...",
+      "namePlace": "Milena, Subotica",
+      "personImg": "/images/person4.jpg"
+    },
+    {
+      "comment": "Vacation for body and soul. Unforgettable trip to Felix Romulian, view from Rtnje and a good snack with our hosts in Boljevac",
+      "namePlace": "Katarina, Loznica",
+      "personImg": "/images/person5.jpg"
+    },
+    {
+      "comment": "Until now, I only knew Bor, but from now on the first thing that comes to mind will be Lake Bor, Brestovac Spa and Lazareva Cave",
+      "namePlace": "Milorad, Sabac",
+      "personImg": "/images/person7.jpg"
+    }
+   
+  ]

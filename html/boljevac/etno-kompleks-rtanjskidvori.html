@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+<script src="/javascript/subscribe.js"></script>
+  <script src="/javascript/PostHTTP.js"></script>
+  <script src="/javascript/f2.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/116a62bc82.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/smestaj.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+        /* Pozadina stranice sa fiksnom slikom i gradijentom koji se pretapa
+        zadnja vrednost je providnost  
+        Boje mogu da se menjaju u rgb vrednostima*/
+
+        body {
+            background-image: linear-gradient(to right,
+                    rgba(193, 246, 248, 0.80), 
+                    rgba(227, 236, 215, 0.8)),
+                url(/images/boljevac/etnoKompleksRtanjskiDvori1.jpg);
+        }
+
+       
+    </style>
+
+    <title>Etno Kompleks Rtanjski Dvori</title>
+
+</head>
+
+
+<body>
+    <div w3-include-html="/header.html"></div>
+    <!-- Glavni kontejner Bootstrap klase -->
+    <div class="container">
+
+        <!-- Naslov -->
+        <h2 class="heading">Etno Kompleks Rtanjski Dvori</h2>
+
+        <hr>
+
+        <!-- START .image-pasus  Kontejner za pasus i sliku/iframe -->
+        <div class="image-pasus clearfix">
+
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori1.jpg" class="rounded float-left" alt="">
+            <p>
+                Smešteno podno planine Garvanica, u selu Ilino, u blizini planine Rtanj, nalazi se etno komleks „Rtanjski dvori“. U samom selu se nalaze Vilino vrelo iz koga izvire pijaća voda, iz kamena same planine Garvanica. 
+Ovaj etno kompleks se sastoji iz četiri apartmana, kapaciteta od 2 do 6 osoba. Svaki apartman sadrži spavaću sobu, dnevni boravak, trpezariju, kuhinju, kupatilo, terasu sa pogledom na Vilinsko vrelo, klima uređaj, TV sa kablovskom televizijom. U sklopu ovog kompleksa se nalazi obezbeđen parking.
+Odvojeno od ovog kompleksa se nalazi i restoran „Dušanova mehana“, gde se za goste etno kompleksa i ostale posetioce služe jela tradicionalne kuhinje, a hrana se doprema od lokalnih meštana.
+Sam ovaj kompleks i selo Ilino je udaljeno četiri kilometara od grada Boljevca, a oko 7 kilometara od planine Rtanj.
+
+            </p>
+
+        </div>
+
+
+        <hr>
+
+        <!-- START Galerija-->
+        <div class="img-container-galerija">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori2.jpg" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori3.jpg" class="rounded float-right" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori4.jpg" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori5.jpg" class="rounded float-left" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori6.jpg" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori7.jpg" class="rounded float-right" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori8.jpg" alt="Etno Kompleks Rtanjski Dvori">
+            <img src="/images/boljevac/etnoKompleksRtanjskiDvori9.jpg" class="rounded float-right" alt="Etno Kompleks Rtanjski Dvori">
+        </div>
+        <!-- END Galerija-->
+        <hr> 
+
+        <!-- START Accommodation info -->
+        <div class="accommodation-info mb-3">
+
+            <p>
+                Pogodnosti koje smeštaj pruža:
+                <i class="fa fa-wifi" style="font-size: 55px ;line-height: 55px ;width: 55px ;color: #40528b ;"></i>
+                <i class="fa fa-home" style="font-size: 55px ;line-height: 55px ;width: 55px ;color: #40528b ;"></i>
+                <i class="fa fa-car" style="font-size: 55px ;line-height: 55px ;width: 55px ;color: #40528b ;"></i>
+                ...
+            </p>
+
+            <address>
+                Ilino BB, <br>
+                19370 Boljevac , Srbija<br><br>
+
+                Email: rezervacije@rtanjskidvori.rs<br>
+                tel: + 381 63 300 230<br>
+                tel: + 381 65 300 2303<br>
+
+            </address>
+
+            <a class="btn btn-primary" href="http://rtanjskidvori.rs/" role="button">Više informacija</a>
+            <br>
+            <a class="btn btn-primary" href="https://www.booking.com/hotel/rs/rtanjski-dvori.sr.html" role="button">REZERVACIJA</a>
+
+        </div>
+        <!-- END Accommodation info -->
+        <hr>
+
+        <!-- START .image-pasus  Kontejner za pasus i sliku/iframe -->
+        <div class="map-fullsize clearfix mb-3">
+
+            <iframe id="iframe-m" class=""
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23038.884800371296!2d21.928374137688852!3d43.79650555117025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4754177acf80813d%3A0xef242ed0ef5a5148!2z0KDRgtCw0ZrRgdC60Lgg0LTQstC-0YDQuA!5e0!3m2!1sen!2s!4v1629736684420!5m2!1sen!2s"
+                width="1200" height="450" style="border:0;" allowfullscreen="" ></iframe>
+        </div>
+
+    </div>
+    <div class="newsletter" style="text-align: center;">
+        <form action="">
+        <h1>Prijavite se na naš newsletter</h1>
+        <p>Ukoliko želite da dobijate obaveštenja u vezi smeštaja, manifestacija i turističkih ponuda iz Timočke krajine, 
+                          ostavite nam Vaš email. 
+        </p>
+        <div class="email-box">
+        
+<input class="tbox"id="tbox"type="email"name=""value=""placeholder="E-mail address">
+         <button onclick='return subscribeVisitor()' type="submit" class="btn">Prijavite se</button>
+        </div>
+        </form>
+        </div>
+<div w3-include-html="/footer.html"></div>
+<script src="/javascript/includeHTML.js"></script>
+</body>
+
+
+</html>
