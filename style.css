@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    
+    margin: 0px;
+    font-size: 1.6rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color:rgba(19, 18, 18, 0.5) ;
+    
+
+  }
+  
+  
+  header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(images/panorama-rtanj.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+
+  nav ul{
+    list-style-type: none;
+    display: flex !important;
+    flex-direction: row !important;
+    align-content: space-around;
+    background-color: #333;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.push {
+    margin-left: auto;
+}
+
+li a:hover {
+
+    background-color: #555;
+    color: white;
+}
+.dropbtn {
+  background-color: #333;
+  color: white; 
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdownsub {
+    
+    position: relative;
+}
+
+.dropdown-subcontent {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(126, 121, 121, 0.2);
+  z-index: 2;
+}
+
+.dropdown-subcontent a {
+  color: white;
+  padding: 16px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-left: -40px;
+}
+
+.dropdown-content a:hover {background-color: #555;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.dropdown-subcontent a:hover {background-color: #555;}
+  
+.dropdownsub:hover .dropdown-subcontent {display: block;}
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .side {
+    
+    flex: 25%;
+    margin-right: 20pt;
+    margin-bottom: 15pt;
+    /* background-image: url(images/index-pozadina.jpg);
+    background-position: center; */
+    padding: 20px;
+  }
+  
+  
+  .main {
+    margin-left: 20pt;
+    flex: 70%;
+    padding: 20px;
+  }
+  
+  
+  footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(140, 164, 240, 0.99) ;
+  }
+  .footerRow {  
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  } 
+
+  
+  @media screen and (max-width: 700px) {
+    header, nav ul, .main, .side{   
+      flex-direction: column;
+      width: 100%;
+    }
+    nav {
+       position:relative !important; 
+    }
+    .side {
+      display: none;
+    }
+    .modal-content {
+      width: 100%;
+    }
+    }
+  @media only screen and (min-width: 1200px) {
+    .main, .side {
+      flex-direction: row;
+      width: 100%;
+      
+    }
+  }
